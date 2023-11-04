@@ -115,6 +115,13 @@ border-radius: 2rem;
     background:rgba(0, 238, 255, 0.5);
     border-radius: 10%;
 }
+
+.textos
+{
+font-size: 2.5rcap;
+
+}
+
 #texto1
 {
     margin-top: 13%;
@@ -138,7 +145,7 @@ border-radius: 2rem;
 
 .titulo
 {
-    font-size: 1.6vw;
+    font-size: 2rem;
     font-family:Tahoma, Geneva, Verdana, sans-serif;
     font-style:italic;
 }
@@ -216,14 +223,13 @@ h3
 #whats
 {
     
-display: inline;
+    padding-left: 45rem;
    
 }
 #whats img
 {
     height: 4rem;
     width: 4rem;
-    padding-left: 45rem;
 }
 
 #endereco

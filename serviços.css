@@ -165,15 +165,15 @@ footer
 #whats
 {
     
-display: inline;
+    padding-left: 45rem;
    
 }
 #whats img
 {
     height: 4rem;
     width: 4rem;
-    padding-left: 45rem;
 }
+
 
 #endereco
 {
