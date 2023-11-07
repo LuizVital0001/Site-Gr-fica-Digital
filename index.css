@@ -17,9 +17,10 @@ nav
     position: fixed;
     display: inline-flex;
     margin-top: -1.4rem;
-    padding-left: 30rem;
+    padding-left: 26vw;
     width: 100%;
-    height: 7rem;
+    height: 8rem;
+    list-style: none;
 }
 
 #cabecalho{
@@ -58,47 +59,49 @@ nav
     height: 50px;
     width: 50px;
     margin-top: 3rem;
-    margin-right: -1.7rem;
+    margin-right: -2.7rem;
+    
 }
 
 #carrossel img
 {
-height: 40rem;
-width: 75rem;
-margin-left: 22rem;
-margin-top: 10rem;
-box-shadow: 0px 0px 15px 15px rgba(0, 238, 255,0.6);
+height: 35vw;
+width: 70vw;
+box-shadow: 0px 0px 15px 15px rgba(0, 238, 255,0.7);
 border-radius: 2rem;
-
 }
 
 #carrossel
 {
-    
-    height: 50%;
-    width:100%; 
-    margin:0%;
+    margin-left: 10vw;
+    height: 35vw;
+    width:80vw; 
+    margin-top:10rem;
+    display: inline-flex;
 }
+
 
 .ante
 {
-    left:15rem
+    margin-top: 12vw;
+    
 }
 .prox
 {
-    right:15rem
+    
+    margin-top: 12vw;
 }
 .ante, .prox
 {
     font-weight: bold;
-    font-size:6vw;
-    text-align: center;
+    font-size:8rem;
     display:inline;
-    width: 4rem;
+    width: 4vw;
+    height: 8vw;
+    margin: 15vw 0vw 15vw 0vw;
     color: rgb(255,255,255);
-    position:absolute;
-    top:45rem;
     cursor:pointer;
+    padding-inline: 2rem;
 }
 #descricao
 {
@@ -108,12 +111,7 @@ border-radius: 2rem;
    color: rgb(255, 255, 255);
    font-family: Impact;
    font-style:oblique;
-}
-.ante:hover, .prox:hover
-{
-    transition: .50s;
-    background:rgba(0, 238, 255, 0.5);
-    border-radius: 10%;
+   margin-top: 1rem;
 }
 
 .textos
@@ -223,7 +221,7 @@ h3
 #whats
 {
     
-    padding-left: 45rem;
+    padding-left:30vw
    
 }
 #whats img
@@ -244,7 +242,7 @@ h3
 {
     text-align: center;
     list-style: none;
-    display: inline-flex;
+    display: flex;
     margin-left: 42vw;
     gap:2rem;
     margin-bottom: 0rem;
