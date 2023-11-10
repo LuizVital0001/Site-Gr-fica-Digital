@@ -34,7 +34,6 @@ nav
     display: flex;
     
 }
-
 #links
 {
     color: rgb(255,255,255);
@@ -51,22 +50,34 @@ nav
 {
     transform: scale(1.4);
 }
-
 #logo
 {
     height: 50px;
     width: 50px;
     margin-top: 2rem;
-    margin-right: -2rem;
+    margin-right: -1.7rem;
 }
-
+#formulario
+{
+    width: 69rem;
+    height: 10rem;
+    margin-top: -60rem;
+    margin-left: -1rem;
+}
 a
 {
 text-decoration: none;
 color: white;
 }
-
-h1
+form
+{
+    margin-left: 2rem;
+}
+.formu
+{
+    color: white;
+}
+.titulo
 {
     font-size: 4rem;
     font-family:Tahoma, Geneva, Verdana, sans-serif;
@@ -74,77 +85,106 @@ h1
     color: rgb(255, 255, 255);
     padding-top:1rem;
     text-align: center;
-    margin-bottom: -3rem;
 }
-
-.produtos
+h3
 {
-    border: 7px solid rgb(255, 255, 255);
-    height: 22rem;
-    width: 20rem;
-    border-radius: 50px 50px 35px 35px;
-    margin-left: 9.7rem;
-    margin-right: 9rem;
-    margin-top: 10rem;
-}
-.produtos img
-{
-    display:flex;
-    width:20rem;
-    height: 14rem;
-    border-radius: 35px 35px 00px 0px;
-}
-  
-
-.titulo1
-{
-    color: white;
-    font-size: 1.7rem;
-    padding-left: 2rem;
-}
-.titulo2
-{
-    color: white;
-    font-size: 1.7rem;
-    padding-left: 3rem;
-}
-.titulo3
-{
-    color: white;
-    font-size: 1.7rem;
-    padding-left: 6.5rem;
-}
-.titulo4
-{
-    color: white;
-    font-size: 1.7rem;
-    padding-left: 4.6rem;
-    
-}
-.saibaMais:hover
-{
-    transition: .50s;
-    background-color:rgb(255, 0, 191);
-    border-radius: 0px 0px 30px 30px;
-}
-h2
-{
-    color: white;
-    font-size: 1.7rem;
-    padding-left: 18px;
-}
-.saibaMais
-{
+    font-size: 3rem;
     color: rgb(255, 255, 255);
-    font-size: 2.2rem;
-    padding-left: 50px;
-    border:1px solid white;
-    border-radius:  0px 0px 20px 20px;
-    margin-bottom: 20px;
+    text-align: center;
 }
-section
+label
 {
-    display: flex;
+    font-size: 1.5rem;
+    color: rgb(255, 255, 255);
+}
+.caixas
+{
+    width: 45%;
+    height: 2rem;
+    background-color: rgb(214, 214, 214);
+}
+.textos
+{
+    width: 94%;
+    height: 2rem;
+    background-color: rgb(214, 214, 214);
+}
+#txtmens
+{
+    width: 94%;
+    height: 15rem;
+    background-color: rgb(214, 214, 214);
+}
+#traco
+{
+    width: 0.7rem;
+    height: 30rem;
+    margin-left: 75rem;
+    margin-bottom: 30rem;
+    background: linear-gradient(to top, rgb(7, 238, 255),rgb(7, 238, 255),rgb(255, 0, 191), rgb(255, 0, 191), rgb(230, 255, 1),rgb(230, 255, 1));
+}
+#tell
+{
+    padding-left: 28.7rem;
+}
+#informacoes
+{
+    margin-left: 75rem;
+    margin-right: 2rem;
+    margin-top: -13rem;
+    color: rgb(255, 255, 255);
+}
+ul
+{
+    list-style: none;
+
+}
+#emaill
+{
+    display: inline-flex;
+    padding-right: 0rem;
+
+}
+.txtinfo
+{
+    font-size: 1.4rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+#telefonee
+{
+    display: inline-flex;
+    padding-right: 15rem;
+}
+#telefone2
+{
+    display: inline-flex;
+    padding-right: 15rem;
+}
+#horarioo
+{
+    display: inline-flex;
+    padding-right: 15rem;
+}
+#informacoes img
+{
+    width: 3.5rem;
+}
+.txt
+{
+    padding: 0.8rem;
+}
+button
+{
+    width: 8rem;
+    height: 2rem;
+    margin-left: 54rem;
+    margin-top: 1rem;
+}
+iframe
+{
+    margin-left: 36rem;
+    margin-top: 20rem;
 }
 #degrade
  {
@@ -164,6 +204,19 @@ footer
     margin-bottom:0%;
 }
 
+#whats
+{
+    
+    padding-left: 45rem;
+   
+}
+#whats img
+{
+    height: 4rem;
+    width: 4rem;
+}
+
+
 #endereco
 {
     color:rgb(0, 0, 0);
@@ -182,18 +235,6 @@ footer
     margin-left: 42vw;
     gap:2rem;
     margin-bottom: 0rem;
-}
-
-#whats:hover
-{
-    background-color:rgb(147, 190, 103, 0.466);
-    border-radius:2.5rem 2.5rem 2.5rem 0rem;
-}
-
-#face:hover
-{
-    background-color:rgb(22, 54, 233, 0.466);
-    border-radius:2.5rem;
 }
 
 #email
@@ -258,12 +299,3 @@ footer
     margin-top: 30px;
     font-size: 1.2rem;
 }
-::-webkit-scrollbar
-    {
-        width: 10px;
-        background-color: rgb(0, 0, 0);
-    }
-    ::-webkit-scrollbar-thumb
-    {
-        background-color: rgb(255, 255, 255)
-    }
