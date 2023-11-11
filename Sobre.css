@@ -24,7 +24,7 @@ nav
     position: fixed;
     display: inline-flex;
     margin-top: -2.1rem;
-    padding-left: 30rem;
+    padding-left: 29rem;
     width: 100%;
     height: 7rem;
     list-style: none;
@@ -56,4 +56,228 @@ nav
     width: 50px;
     margin-top: 2rem;
     margin-right: -1.7rem;
+}
+h2
+{
+    font-size: 4rem;
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic;
+    color: rgb(255, 255, 255);
+    padding-top:1rem;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+#impressoes
+{
+    width: 50vw;
+}
+#impressoes img
+{
+    width: 45vw;
+    margin-left: 5vw;
+}
+#textos, h3, p
+{
+    width: 50rem;
+    margin-left: 60rem;
+
+}
+h3
+{
+    color: rgb(255, 255, 255);
+    font-size: 2.3vw;
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -28rem;
+
+}
+p
+{
+    color: rgb(255, 255, 255);
+    font-size: 1.9rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#traco
+{
+    background: linear-gradient(to right, rgb(7, 238, 255),rgb(7, 238, 255),rgb(255, 0, 191), rgb(255, 0, 191), rgb(230, 255, 1),rgb(230, 255, 1));
+    width: 110.8rem;
+    height: 1rem;
+    margin-top: 5rem;
+}
+#titulo2
+{
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+}
+#clientes1 img
+{
+    width: 25rem;
+    display: inline-flex;
+    margin-left: 10rem;
+    margin-top: -5rem;
+}
+#clientes2 img
+{
+    width: 25rem;
+    display: inline-flex;
+    margin-left: 10rem;
+    margin-top: 4rem;
+}
+h4
+{
+    color: rgb(255, 255, 255);
+    width: 50rem;
+    font-size: 2rem;
+    text-align: center;
+    margin-left: 31rem;
+}
+#estrutura .txt
+{
+    font-size: 1.7rem;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    margin-left: 31rem;
+}
+#maquinario .btn
+{
+    font-size: 1.5rem;
+    width: 25rem;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0.8rem;
+    border: 0.3rem solid rgb(255, 255, 255);
+    border-radius: 1rem;
+    display:inline-flex;
+    margin-left: 80rem;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+#maquinario .btn img
+{
+    width: 6rem;
+    height: 2.4rem;
+    margin-left: 0.5rem;
+}
+#degrade
+ {
+    width:100%;
+    height: 2.8rem;
+    background:linear-gradient(to right, rgb(7, 238, 255),rgb(7, 238, 255),rgb(255, 0, 191), rgb(255, 0, 191), rgb(230, 255, 1),rgb(230, 255, 1));
+    margin-top: 6rem;
+ }
+ 
+
+footer
+{
+    width: 100%;
+    background-color: rgb(255,255,255);
+    height: 25rem;
+    margin-top: -7rem;
+    margin-bottom:0%;
+}
+
+#endereco
+{
+    color:rgb(0, 0, 0);
+    text-align: center;
+    list-style: none;
+    padding-top: 10px;
+    font-size: 1.5rem;
+    margin-top: 100px;
+    margin-left: 33rem;
+}
+
+#icones
+{
+    text-align: center;
+    list-style: none;
+    display: inline-flex;
+    margin-left: 39.8vw;
+    gap:2rem;
+    margin-bottom: 0rem;
+}
+
+#whats:hover
+{
+    background-color:rgba(37, 211, 101, 0.8);
+    border-radius:2.5rem 2.5rem 2.5rem 0rem;
+}
+
+#face:hover
+{
+    background-color:rgb(66, 103, 178, 0.8);
+    border-radius:2.5rem;
+}
+
+#insta:hover
+{
+    background: linear-gradient(to top left, rgba(252, 175, 69, 0.8), rgba(247, 119, 55, 0.8), rgba(225, 48, 108, 0.8), rgba(193, 53, 132, 0.8), rgba(131, 58, 180, 0.8), rgba(88, 81, 216, 0.8));
+    border-radius: 1rem;
+}
+#linke:hover
+{
+    background-color: rgba(0, 65, 130, 0.8);
+    border-radius: 0.5rem;
+}
+#email
+{
+    text-align: center;
+    list-style: none;
+    display: inline-flex;
+    margin-left: 41vw;
+    font-size: 1.5rem;
+    margin-top: 1%;
+}
+
+#email img
+{
+    width: 26px;
+    height: 26px;
+
+}
+
+#horario
+{
+    text-align: center;
+    list-style: none;
+    display: inline-flex;
+    margin-left: 40.5vw;
+    font-size: 1.5rem;
+    margin-top: -10px;
+}
+
+#horario img
+{
+    width: 26px;
+    height: 26px;
+
+}
+
+#telefone
+{
+    text-align: center;
+    list-style: none;
+    display: inline-flex;
+    margin-left: 38vw;
+    font-size: 1.5rem;
+    margin-top: -10px;
+    gap: 10px;
+}
+
+#telefone img
+{
+    width: 26px;
+    height: 26px;
+
+}
+
+#direitos
+{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    list-style: none;
+    display: inline-flex;
+    margin-left: 44vw;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    font-size: 1.2rem;
 }

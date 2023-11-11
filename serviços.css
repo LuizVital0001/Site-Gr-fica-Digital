@@ -24,7 +24,7 @@ nav
     position: fixed;
     display: inline-flex;
     margin-top: -2.1rem;
-    padding-left: 30rem;
+    padding-left: 29rem;
     width: 100%;
     height: 7rem;
     list-style: none;
@@ -179,23 +179,33 @@ footer
     text-align: center;
     list-style: none;
     display: inline-flex;
-    margin-left: 42vw;
+    margin-left: 39.8vw;
     gap:2rem;
     margin-bottom: 0rem;
 }
 
 #whats:hover
 {
-    background-color:rgb(147, 190, 103, 0.466);
+    background-color:rgba(37, 211, 101, 0.8);
     border-radius:2.5rem 2.5rem 2.5rem 0rem;
 }
 
 #face:hover
 {
-    background-color:rgb(22, 54, 233, 0.466);
+    background-color:rgb(66, 103, 178, 0.8);
     border-radius:2.5rem;
 }
 
+#insta:hover
+{
+    background: linear-gradient(to top left, rgba(252, 175, 69, 0.8), rgba(247, 119, 55, 0.8), rgba(225, 48, 108, 0.8), rgba(193, 53, 132, 0.8), rgba(131, 58, 180, 0.8), rgba(88, 81, 216, 0.8));
+    border-radius: 1rem;
+}
+#linke:hover
+{
+    background-color: rgba(0, 65, 130, 0.8);
+    border-radius: 0.5rem;
+}
 #email
 {
     text-align: center;
