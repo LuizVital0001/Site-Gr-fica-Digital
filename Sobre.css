@@ -57,7 +57,7 @@ nav
     margin-top: 2rem;
     margin-right: -1.7rem;
 }
-h2
+#titulo
 {
     font-size: 4rem;
     font-family:Tahoma, Geneva, Verdana, sans-serif;
@@ -66,76 +66,87 @@ h2
     padding-top:1rem;
     text-align: center;
     padding-bottom: 5rem;
+    
 }
-#impressoes
+#container
 {
-    width: 50vw;
+    display:inline-flex
 }
-#impressoes img
+#sobre
 {
-    width: 45vw;
-    margin-left: 5vw;
+color:white;
+height:30rem;
+width: 60rem;
+margin-left:57rem ;
+margin-top: -35rem;
 }
-#textos, h3, p
+i
 {
-    width: 50rem;
-    margin-left: 60rem;
+    color:white;
+    font-size: 2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+#imagem
+{
+    height:35rem;
+    width: 55rem;
+    margin-left:3rem
+}
+#imagem img
+{
+    height:30rem;
+    width: 55rem;
+    border-radius: 35px;
+}
 
-}
-h3
-{
-    color: rgb(255, 255, 255);
-    font-size: 2.3vw;
-    font-family:Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: -28rem;
-
-}
-p
-{
-    color: rgb(255, 255, 255);
-    font-size: 1.9rem;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
 #traco
 {
     background: linear-gradient(to right, rgb(7, 238, 255),rgb(7, 238, 255),rgb(255, 0, 191), rgb(255, 0, 191), rgb(230, 255, 1),rgb(230, 255, 1));
-    width: 110.8rem;
-    height: 1rem;
+    width: 100%;
+    height: 0.4vw;
     margin-top: 5rem;
 }
 #titulo2
 {
     color: rgb(255, 255, 255);
     font-size: 3rem;
+    margin-top: 7rem;
+    font-size: 4rem;
+    font-family:Tahoma, Geneva, Verdana, sans-serif;
+    font-style:italic;
+    color: rgb(255, 255, 255);
+    padding-top:1rem;
+    text-align: center;
+    padding-bottom: 5rem;
 }
 #clientes1 img
 {
-    width: 25rem;
+    width: 16rem;
     display: inline-flex;
-    margin-left: 10rem;
-    margin-top: -5rem;
+    margin-left: 17rem;
+    margin-top: -2rem;
 }
 #clientes2 img
 {
-    width: 25rem;
+    width: 16rem;
     display: inline-flex;
-    margin-left: 10rem;
-    margin-top: 4rem;
+    margin-left: 17rem;
+    margin-top: 6rem;
+    margin-bottom: 10rem;
 }
 h4
 {
     color: rgb(255, 255, 255);
-    width: 50rem;
+    margin-left: 49rem;
     font-size: 2rem;
-    text-align: center;
-    margin-left: 31rem;
+
 }
 #estrutura .txt
 {
     font-size: 1.7rem;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: center;
-    margin-left: 31rem;
+    margin-left: 0rem;
 }
 #maquinario .btn
 {
@@ -183,7 +194,6 @@ footer
     padding-top: 10px;
     font-size: 1.5rem;
     margin-top: 100px;
-    margin-left: 33rem;
 }
 
 #icones
@@ -215,7 +225,7 @@ footer
 }
 #linke:hover
 {
-    background-color: rgba(0, 65, 130, 0.8);
+    background-color: rgba(2, 116, 179, 0.5);
     border-radius: 0.5rem;
 }
 #email
@@ -272,7 +282,6 @@ footer
 
 #direitos
 {
-    color: rgb(0, 0, 0);
     text-align: center;
     list-style: none;
     display: inline-flex;
@@ -281,3 +290,17 @@ footer
     margin-top: 30px;
     font-size: 1.2rem;
 }
+a
+{
+    text-decoration: none;
+    color: white;
+}
+::-webkit-scrollbar
+    {
+        width: 10px;
+        background-color: rgb(0, 0, 0);
+    }
+::-webkit-scrollbar-thumb
+    {
+        background-color: rgb(255, 255, 255)
+    }
