@@ -89,7 +89,7 @@ form
 {
     font-size: 3rem;
     color: rgb(255, 255, 255);
-    text-align: center;
+    margin-left: 20rem
 }
 label
 {
@@ -98,19 +98,19 @@ label
 }
 .caixas
 {
-    width: 28vw;
+    width: 24.2vw;
     height: 2rem;
     background-color: rgb(214, 214, 214);
 }
 .textos
 {
-    width: 58.9vw;
+    width: 50vw;
     height: 2rem;
     background-color: rgb(214, 214, 214);
 }
 #txtmens
 {
-    width: 58.9vw;
+    width: 50vw;
     height: 15rem;
     background-color: rgb(214, 214, 214);
 }
@@ -118,20 +118,22 @@ label
 {
     width: 0.7rem;
     height: 30rem;
-    margin-left: 65rem;
+    margin-left: 73rem;
+    margin-top: 6rem;
     margin-bottom: 30rem;
     background: linear-gradient(to top, rgb(7, 238, 255),rgb(7, 238, 255),rgb(255, 0, 191), rgb(255, 0, 191), rgb(230, 255, 1),rgb(230, 255, 1));
 }
 #tell
 {
-    padding-left: 27vw;
+    padding-left: 23vw;
 }
 #informacoes
 {
-    margin-left: 65rem;
+    margin-left: 73rem;
     margin-right: 2rem;
-    margin-top: -13rem;
+    margin-top: -16rem;
     color: rgb(255, 255, 255);
+    font-size: 2rem;
 }
 ul
 {
@@ -172,12 +174,13 @@ ul
 .txt
 {
     padding: 0.8rem;
+    margin-left: 2vw;
 }
 button
 {
     width: 8rem;
     height: 2rem;
-    margin-left: 51vw;
+    margin-left: 45vw;
     margin-top: 1rem;
 }
 iframe
@@ -377,7 +380,7 @@ footer
     }
 }
 /*Fim da Responsividade ao Footer*/ 
-@media(max-width: 1500px)
+@media(max-width: 1400px)
 {
     #informacoes
     {
@@ -462,4 +465,24 @@ footer
     {
         padding-left: 30vw;
     }
+}
+@media(max-width: 1700px)
+{
+    #informacoes
+    {
+        margin-left: 65rem;
+        margin-right: 2rem;
+        margin-top: -16rem;
+        color: rgb(255, 255, 255);
+        font-size: 2rem;
+    }
+    #traco
+{
+    width: 0.7rem;
+    height: 30rem;
+    margin-left: 65rem;
+    margin-top: 6rem;
+    margin-bottom: 30rem;
+    background: linear-gradient(to top, rgb(7, 238, 255),rgb(7, 238, 255),rgb(255, 0, 191), rgb(255, 0, 191), rgb(230, 255, 1),rgb(230, 255, 1));
+}
 }
