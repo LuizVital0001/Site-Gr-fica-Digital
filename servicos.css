@@ -61,8 +61,8 @@ header
 
 a
 {
-text-decoration: none;
-color: white;
+    text-decoration: none;
+    color: white;
 }
 
 h1
@@ -73,18 +73,32 @@ h1
     color: rgb(255, 255, 255);
     padding-top:1rem;
     text-align: center;
-    margin-bottom: -3rem;
+    margin-bottom: 1rem;
 }
-
+#conteiner
+{
+    margin-bottom: 0rem;
+    width: 99vw;
+    height: 106rem;
+    border: 1px solid rgb(0, 26, 255);
+    display: block;
+}
+.linha
+{
+    height: 35rem;
+    width: 98.8vw;
+    border: 1px solid rgb(255, 255, 255);
+    display: inline-flex;
+}
 .produtos
 {
     border: 7px solid rgb(255, 255, 255);
     height: 22rem;
     width: 20rem;
     border-radius: 50px 50px 35px 35px;
-    margin-left: 9.7rem;
-    margin-right: 9rem;
-    margin-top: 10rem;
+    margin-top: 6rem;
+    margin-left: 8vw;
+    margin-right: 8vw;
 }
 .produtos img
 {
@@ -141,16 +155,13 @@ h2
     border-radius:  0px 0px 20px 20px;
     margin-bottom: 20px;
 }
-section
-{
-    display: flex;
-}
+
 #degrade
  {
     width:100%;
     height: 2.8rem;
     background:linear-gradient(to right, rgb(7, 238, 255),rgb(7, 238, 255),rgb(255, 0, 191), rgb(255, 0, 191), rgb(230, 255, 1),rgb(230, 255, 1));
-    margin-top: 6rem;
+    margin-top: 0rem;
  }
  
 
@@ -333,3 +344,18 @@ footer
     }
 }
 /*Fim da Responsividade ao Footer*/ 
+@media(max-width: 1700px)
+{
+    .produtos
+    {
+        margin-left: -5w;
+        margin-right: 1vw;
+    }
+}
+@media(max-width: 1300px)
+{
+    .produtos
+    {
+        
+    }
+}

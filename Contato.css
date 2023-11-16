@@ -89,7 +89,7 @@ form
 {
     font-size: 3rem;
     color: rgb(255, 255, 255);
-    margin-left: 20rem
+    margin-left: 21vw
 }
 label
 {
@@ -473,16 +473,11 @@ footer
         margin-left: 65rem;
         margin-right: 2rem;
         margin-top: -16rem;
-        color: rgb(255, 255, 255);
-        font-size: 2rem;
     }
     #traco
-{
-    width: 0.7rem;
-    height: 30rem;
-    margin-left: 65rem;
-    margin-top: 6rem;
-    margin-bottom: 30rem;
-    background: linear-gradient(to top, rgb(7, 238, 255),rgb(7, 238, 255),rgb(255, 0, 191), rgb(255, 0, 191), rgb(230, 255, 1),rgb(230, 255, 1));
-}
+    {
+        margin-left: 65rem;
+        margin-top: 6rem;
+        margin-bottom: 30rem;
+    }
 }
