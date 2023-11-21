@@ -1,17 +1,17 @@
-*{
-    /*border: 1px solid red;*/
-}
-
 body
 {
+    /*Modificando a cor de fundo e as margens da página em geral*/
     background-color: rgb(0, 0, 0);
     padding: 0%;
     margin: 0%;
 }
+
 header
 {
+    /*Efeito degrade transparente no cabeçalho da página*/
     background:linear-gradient(to bottom,rgb(0, 0, 0),rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.6));
     box-shadow: 0px -2px 10px 13px rgba(0, 0, 0, 0.6);
+    /*Mexendo em proporções e deixando os itens um ao lado do outro*/
     width: 100%;
     position: fixed;
     display: inline-flex;
@@ -22,31 +22,30 @@ header
     list-style: none;
 }
 
-#cabecalho{
-    display: flex;
-    
-}
-
 #links
 {
+    /*Formatando as palavras do cabeçalho
+    tipo de fonte, cor e margem*/
     color: rgb(255,255,255);
     display: inline-block;
     font-family: Arial;
     width: 10%;
     margin-top: 1.5rem;
     padding-inline:3.5vw;
-    cursor:pointer;
     padding-top: 1.5rem;
+    /*mudando o cursor ao passar o mouse em cima*/
+    cursor:pointer;
 }
-
 
 #links:hover
 {
+    /*Efeito de aumentar as palavras do cabeçalho ao passar o mouse em cima*/
     transform: scale(1.4);
 }
 
 #fundo
 {
+    /*formatando a imagem de fundo do cabeçalho*/
     width: 100%;
     height: 410px;
     margin-left: 0px;
@@ -55,6 +54,8 @@ header
 
 #logo
 {
+    /*formatando a logo no cabeçalho
+    posição e tamanho da imagem*/
     height: 50px;
     width: 50px;
     margin-top: 3rem;
@@ -62,16 +63,9 @@ header
     
 }
 
-#carrossel img
-{
-height: 35vw;
-width: 70vw;
-box-shadow: 0px 0px 15px 15px rgba(0, 238, 255,0.7);
-border-radius: 2rem;
-}
-
 #carrossel
 {
+    /*definindo as proporções da div do carrosel*/
     margin-left: 10vw;
     height: 35vw;
     width:80vw; 
@@ -79,19 +73,34 @@ border-radius: 2rem;
     display: inline-flex;
 }
 
+#carrossel img
+{
+    /*definindo as proporções da imagem do carrosel*/
+    height: 35vw;
+    width: 70vw;
+    /*adicionando o efeito de sombra azul na imagem*/
+    box-shadow: 0px 0px 15px 15px rgba(0, 238, 255,0.7);
+    /*adicionando o efeito de arredondamento da imagem*/
+    border-radius: 2rem;
+}
 
 .ante
 {
+    /*definindo a distancia da seta esquerda em relação ao carrossel*/
     margin-top: 12vw;
     
 }
+
 .prox
 {
-    
+    /*definindo a distancia da seta direita em relação ao carrossel*/
     margin-top: 12vw;
 }
+
 .ante, .prox
 {
+    /*formantando as setas 
+    tamanho, posição, tipo de fonte e cor*/
     font-weight: bold;
     font-size:8rem;
     display:inline;
@@ -102,8 +111,11 @@ border-radius: 2rem;
     cursor:pointer;
     padding-inline: 2rem;
 }
+
 #descricao
 {
+    /*formantando a descrição do carrossel
+    tamanho, posição, tipo de fonte e cor*/
    text-align: center;
    height: auto;
    font-size: 4vw;
@@ -116,11 +128,13 @@ border-radius: 2rem;
 
 .textos
 {
+/*definindo o tamanho do conteudo dos textos SOBRE NÓS e PORTIFOLIO*/
 font-size: 2vw;
 }
 
 #texto1
 {
+    /*formatando a div do primeiro texto*/
     margin-top: 13%;
     display: inline-flex;
     height: 120px;
@@ -131,8 +145,10 @@ font-size: 2vw;
     margin-bottom: 22%;
     margin-top: 15vw;
 }
+
 #texto1 img
-{
+{   
+    /*formatando a imagem do primeiro texto*/
     border-radius: 25px;
     height: 18vw;
     width: 27vw;
@@ -142,14 +158,17 @@ font-size: 2vw;
 }
 
 .titulo
-{
+{   
+    /*formatando o titulo dos DOIS textos*/
     font-size: 3vw;
     font-family:Tahoma, Geneva, Verdana, sans-serif;
     font-style:italic;
     margin-left: -4rem;
 }
+
 #texto2
-{
+{   
+    /*formatando a div do segundo texto*/
     display: inline-flex;
     height: 120px;
     width: 80vw;
@@ -158,8 +177,10 @@ font-size: 2vw;
     margin-left: 15vw;
     margin-top: 12vw;
 }
+
 #texto2 img
 {
+    /*formatando a imagem do segundo texto*/
     border-radius: 25px;
     height: 18vw;
     width: 28vw;
@@ -167,15 +188,19 @@ font-size: 2vw;
     margin-top: 3vw;
     box-shadow: 0px 0px 6px 6px rgba(221, 221, 221, 0.6);
 }
+
 #link1
-{
+{   
+    /*formatando o link "SAIBA MAIS" do primeiro texto*/
     border:1px solid rgb(255, 255, 255);
     border-radius: 30px;
     font-size: 2vw;
     margin-left: -1vw;
 }
+
 #link2
-{
+{   
+    /*formatando o link "PORTIFOLIO" do segundo texto*/
     border:1px solid rgb(255, 255, 255);
     border-radius: 30px;
     font-size: 2vw;
@@ -183,34 +208,40 @@ font-size: 2vw;
 } 
 
 h1
-{
+{   
+    /*formatando o texto "PARCERIAS"*/
     margin-top: 18rem;
     font-size: 3vw;
     color: white;
     text-align: center;
 }
+
 #parcerias img
 {
-    
+    /*formatando as imagens dentro da div "parcerias"*/
     width: 14rem;
     height:14rem;
     padding-inline: 6vw;
 }
+
 #parcerias
-{
+{   
+    /*alinhando as imagens no centro da div*/
     text-align:center;
 }
+
 #degrade
- {
+ {  
+    /*Criando e formatando a barra de degrade acima do footer dentro da div "degrade"*/
     width:100%;
     height: 2.8rem;
     background:linear-gradient(to right, rgb(7, 238, 255),rgb(7, 238, 255),rgb(255, 0, 191), rgb(255, 0, 191), rgb(230, 255, 1),rgb(230, 255, 1));
     margin-top: 6rem;
  }
  
-
 footer
-{
+{   
+    /*formatando o footer do site*/
     width: 100%;
     background-color: rgb(255,255,255);
     height: 25rem;
@@ -218,22 +249,20 @@ footer
     margin-bottom:0%;
 }
 
-h3
- {
-    font-size: 1.5rem;
-    margin-top: 100px;
- }
-
 #endereco
-{
+{   
+    /*formatando o texto endereco no footer*/
     color:rgb(0, 0, 0);
     text-align: center;
     list-style: none;
     padding-top: 10px;
+    font-size: 1.5rem;
+    margin-top: 100px;
 }
 
 #icones
-{
+{   
+    /*formatando os icones das midias sociais dentro do footer*/
     text-align: center;
     list-style: none;
     display: flex;
@@ -241,6 +270,7 @@ h3
     gap:2rem;
     margin-bottom: 0rem;
 }
+/*formatando o hover (efeito ao passar o mouse em cima) das midias sociais dentro do footer*/
 #whats:hover
 {
     background-color:rgba(37, 211, 101, 0.8);
@@ -263,9 +293,10 @@ h3
     background-color: rgba(2, 116, 179, 0.5);
     border-radius: 0.5rem;
 }
-
+/*fim da formatação do hover nas midias sociais*/
 #email
-{
+{   
+    /*formatando o texto email no footer*/
     text-align: center;
     list-style: none;
     display: inline-flex;
@@ -275,7 +306,8 @@ h3
 }
 
 #email img
-{
+{   
+    /*formatando a imagem do email do footer*/
     width: 26px;
     height: 26px;
 
@@ -283,6 +315,7 @@ h3
 
 #horario
 {
+    /*formatando o texto "Horario" footer*/
     text-align: center;
     list-style: none;
     display: inline-flex;
@@ -292,14 +325,16 @@ h3
 }
 
 #horario img
-{
+{   
+    /*formatando a imagem do horario do footer*/
     width: 26px;
     height: 26px;
 
 }
 
 #telefone
-{
+{   
+    /*formatando o texto "Telefone" do footer*/
     text-align: center;
     list-style: none;
     display: inline-flex;
@@ -310,14 +345,16 @@ h3
 }
 
 #telefone img
-{
+{   
+    /*formatando a imagem do telefone do footer*/
     width: 26px;
     height: 26px;
 
 }
 
 #direitos
-{
+{   
+    /*formatando o texto "Direitos" do footer*/
     text-align: center;
     list-style: none;
     display: inline-flex;
@@ -328,18 +365,22 @@ h3
 }
 a
 {
-text-decoration: none;
-color: white;
+    /*formatando todos os links presentes na página (tirando o sublinhado e deixando a cor padrão em branco)*/
+    text-decoration: none;
+    color: white;
 }
 ::-webkit-scrollbar
 {
+    /*formatando a barra de rolagem "Trilho"*/
     width: 10px;
     background-color: rgb(0, 0, 0);
 }
 ::-webkit-scrollbar-thumb
-{
+{   
+    /*formatando a barra de rolagem "Trem"*/
     background-color: rgb(255, 255, 255)
 }
+/*Aplicando a responsividade no site (carrosel, textos e etc..)*/
 @media(max-width: 1420px)
 {
     .prox , .ante
@@ -374,15 +415,6 @@ color: white;
     {
         margin-left: -3rem;
     }
-    footer
-    {
-
-    }
-
-    nav
-    {
-    }
-
 }
 /*Aplicando Responsividade ao Footer*/  
 @media(max-width: 1000px)
