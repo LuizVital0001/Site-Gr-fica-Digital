@@ -67,3 +67,18 @@ function Exibindo()
         exibir=setInterval("Exibindo()",tempo);
     }
 
+    function Abre_Menu()
+    {
+        document.getElementById("menuzinho").style.visibility="visible";
+        document.getElementById("hambu").style.visibility="hidden";
+        document.getElementById("xis").style.visibility="visible";
+        document.getElementById("menuzinho").style.height="auto";
+    }
+    function Fecha_Menu()
+    {
+        document.getElementById("menuzinho").style.visibility="hidden";
+        document.getElementById("hambu").style.visibility="visible";
+        document.getElementById("xis").style.visibility="hidden";
+        document.getElementById("menuzinho").style.height="0";
+    }
+

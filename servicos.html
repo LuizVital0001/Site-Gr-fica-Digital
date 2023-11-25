@@ -9,39 +9,84 @@
     <body>
         <div class="gradiente"></div>
         <header>
-                <ul id="cabecalho1">
-                    <li id="links"><a href ="index.html">HOME</a></li> 
-                    <li id="links">SERVIÇOS</li>
-                </ul>   
-
-                     <li><img src="imagens/logo.png"id="logo"></li>
-                
-                <ul id="cabecalho2">
-                    <li id="links"><a href ="Contato.html">CONTATO</a></li>
-                    <li id="links"><a href ="Sobre.html">SOBRE</a></li>
+   
+            <ul>
+                <li id="links"><a href ="index.html">HOME</a></li> 
+                <li id="links"><a href ="servicos.html">SERVIÇOS</a></li>
+            </ul>   
+    
+                <li><img src="imagens/menu.png" id="hambu" onClick="Abre_Menu()"/></li>
+                <li><img src="imagens/X.png" id="xis" onClick="Fecha_Menu()"/></li>
+                <li><img src="imagens/logo.png"id="logo"/></li>
+    
+            <ul id="cabecalho2">
+                <li id="links"><a href ="Contato.html">CONTATO</a></li>
+                <li id="links"><a href ="Sobre.html">SOBRE</a></li>
+            </ul>
+     
+    </header>
+    <!--imagem do cabeçalho-->
+            <section id="menuzinho">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href ="servicos.html">SERVIÇOS</a></li>
+                    <li><a href ="Contato.html">CONTATO</a></li>
+                    <li><a href ="Sobre.html">SOBRE</a></li>
                 </ul>
-        </header>
+            </section>
         <div class="gradiente"></div>
         <div class="gradiente"></div>
         <div class="gradiente"></div>
+        
         <h1>SERVIÇOS</h1>
-        <section id="conteiner">
-            <section class ="linha">
-                <div class="produtos"><img src = "imagens/tecido-para-sublimação.jpg"> <h2>Tecido para Sublimação</h2> <h3 class="saibaMais"><a href ="">SAIBA MAIS </a></h3></div>
-                <div class="produtos"><img src = "imagens/LONA1.jpg"> <h2 class="titulo1">Lonas para Fachadas</h2> <h3 class="saibaMais"><a href ="">SAIBA MAIS </a></h3></div>
-                <div class="produtos"><img src = "imagens/placaDeSinalizacao.jpg"> <h2 class="titulo1">Placas de Sinalizações</h2> <h3 class="saibaMais"><a href ="">SAIBA MAIS </a></h3></div>
-            </section>
-            <section class ="linha"> 
-            <div class="produtos"><img src = "imagens/impressao-de-100-fotos-15x10-cm-01-2022-05-03-10-58-42-926x926.jpg"> <h2>Impressões fotográficas</h2> <h3 class="saibaMais"><a href ="">SAIBA MAIS </a></h3></div>
-            <div class="produtos"><img src = "imagens/adesivodeparede.jpeg"> <h2 class="titulo2">Adesivos de Parede </h2> <h3 class="saibaMais"><a href ="">SAIBA MAIS </a></h3></div>
-            <div class="produtos"><img src = "imagens/carimbo-header1-trodat-1-1-.jpg"> <h2 class="titulo3">Carimbos</h2> <h3 class="saibaMais"><a href ="">SAIBA MAIS </a></h3></div>
-            </section>
-            <section class ="linha">
-                <div class="produtos"><img src = "imagens/encardenação.jpg"> <h2 class="titulo4">Encardenação</h2> <h3 class="saibaMais"><a href ="">SAIBA MAIS </a></h3></div>
-                <div class="produtos"><img src = "imagens/adesivoshopping.jpg"> <h2  class="titulo1">Adesivo para Tapume</h2> <h3 class="saibaMais"><a href ="">SAIBA MAIS </a></h3></div>
-                <div class="produtos"><img src = "imagens/etiqueta-adesiva-leitosa-5cm-1598142640750.jpg"> <h2 class="titulo2">Etiqueta Adesiva</h2> <h3 class="saibaMais"><a href ="">SAIBA MAIS </a></h3></div>
-            </section>
-        </section>
+
+        <div class="card">
+            <img class="imgcard" src="imagens/tecido-para-sublimação.jpg">
+            <h2 id ="descricao">Tecido para Sublimação</h2>
+            <h2 id="btn"><a href ="">SAIBA MAIS </a></h2>
+        </div>
+
+        <div class="card">
+            <img class="imgcard"src="imagens/LONA1.jpg">
+            <h2 class="titulo1">Lonas para Fachadas</h2>
+            <h2 id="btn"><a href ="">SAIBA MAIS </a></h2>
+        </div>
+        <div class="card">
+            <img class="imgcard"src="imagens/placaDeSinalizacao.jpg">
+            <h2 class="titulo1">Placas de Sinalizações</h2>
+            <h2 id="btn"><a href ="">SAIBA MAIS </a></h2>
+        </div>
+        <div class="card">
+            <img class="imgcard" src="imagens/impressao-de-100-fotos-15x10-cm-01-2022-05-03-10-58-42-926x926.jpg">
+            <h2 id ="descricao">Impressões Fotográficas</h2>
+            <h2 id="btn"><a href ="">SAIBA MAIS </a></h2>
+        </div>
+        <div class="card">
+            <img class="imgcard" src="imagens/adesivodeparede.jpeg">
+            <h2 class="titulo1">Adesivos de Parede</h2>
+            <h2 id="btn"><a href ="">SAIBA MAIS </a></h2n>
+        </div>
+        <div class="card">
+            <img class="imgcard" src="imagens/carimbo-header1-trodat-1-1-.jpg">
+            <h2 class="titulo3">Carimbos</h2>
+            <h2 id="btn"><a href ="">SAIBA MAIS </a></h2>
+        </div>
+        <div class="card">
+            <img class="imgcard" src="imagens/encardenação.jpg">
+            <h2 class="titulo1">Encadernação</h2>
+            <h2 id="btn"><a href ="">SAIBA MAIS </a></h2>
+        </div>
+        <div class="card">
+            <img class="imgcard" src="imagens/adesivoshopping.jpg">
+            <h2 class="titulo2">Adesivos para Tapume</h2>
+            <h2 id="btn"><a href ="">SAIBA MAIS </a></h2>
+        </div>
+        <div class="card">
+            <img class="imgcard" src="imagens/etiqueta-adesiva-leitosa-5cm-1598142640750.jpg">
+            <h2 class="titulo1">Etiqueta Adesiva</h2>
+            <h2 id="btn"><a href ="">SAIBA MAIS </a></h2>
+        </div>
+        
         <div id="degrade"></div>
         <footer>
             <h3 id="endereco">Rua Guaipá, 678 - Vila Leopoldina, São Paulo - SP</h3>
@@ -67,4 +112,5 @@
             </ul>
             <p id="direitos">® 2023, Equipe Ml4 Digital</p>
         </footer>
+        <script src="Index.js"></script>
     </body>

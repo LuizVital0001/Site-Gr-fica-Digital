@@ -20,6 +20,11 @@ header
     width: 100%;
     height: 8rem;
     list-style: none;
+    margin-left: -10px;
+}
+/*preparando para fazer o menu hamburguer*/
+header ul{
+    visibility:visible;
 }
 
 #links
@@ -50,6 +55,7 @@ header
     height: 410px;
     margin-left: 0px;
     margin-right: 0px;
+    margin-top: -1rem;
 }
 
 #logo
@@ -62,7 +68,52 @@ header
     margin-right: -2.7rem;
     
 }
+#xis
+{ /*x do menu hamburguer*/
+    visibility: hidden;
+    position:absolute;
+    cursor:pointer;
+}
+#hambu
+{   /*hamburguer do menu responsivo*/
+    visibility: hidden;
+    position:absolute;
+    cursor:pointer;
+}
+/*menu hamburguer*/
+#menuzinho
+{   
+    font-family:Georgia;
+    visibility:hidden;
+    height:2rem;
+    cursor:pointer;
+    transition: 0.5s height;
+    position:fixed;
+    margin-top:1.5rem;
+    top:5rem;
+    width:100%;
+    text-align:center;
+}
 
+#menuzinho ul
+{
+    margin-top: 0rem;
+    background-color: rgb(0, 0, 0);
+    list-style:none;
+    height: 9.5rem;
+}
+#menuzinho ul li
+{
+    padding-top: 1rem;
+}
+#menuzinho ul li a{
+    color:rgb(255, 255, 255);
+}
+
+#menuzinho ul li:hover{
+    transform: scale(1.2);
+}
+/*fim do menu hamburguer*/
 #carrossel
 {
     /*definindo as proporções da div do carrosel*/
@@ -382,7 +433,11 @@ a
 }
 /*Aplicando a responsividade no site (carrosel, textos e etc..)*/
 @media(max-width: 1420px)
-{
+{   
+    header
+    {
+        padding-left: 25vw;
+    }
     .prox , .ante
     {
         display: none;
@@ -398,27 +453,38 @@ a
     }
     #descricao
     {
-   font-size: 3rem;
-   margin-bottom: 7%;
+        font-size: 3rem;
+        margin-bottom: 7%;
     }
     #texto1
     {
-    margin-left: 2.2rem;
-    font-size: 1.4vw;
+        margin-left: 2.2rem;
+        font-size: 1.4vw;
     }
     #texto2
     {
-    margin-left: 6rem;
-    font-size: 1.4vw;
+        margin-left: 6rem;
+        font-size: 1.4vw;
     }    
     #texto2 img 
     {
         margin-left: -3rem;
     }
 }
-/*Aplicando Responsividade ao Footer*/  
+/*responsividade aos tabletes*/  
 @media(max-width: 1000px)
 {
+    header{
+        background-color:rgb(0, 0, 0);
+    }
+
+    header ul{
+        visibility:hidden;
+    }
+
+    #hambu{
+        visibility:visible;
+    }
     h3
     {
        margin-left:0vw;
@@ -443,9 +509,51 @@ a
     {
         margin-left: 39vw;
     }
-}
-@media(max-width: 570px)
-{
+    #logo
+    {
+        height: 60px;
+        width: 60px;
+        margin-top: 2.5rem;
+        margin-left: -22rem;
+        
+    }
+    #xis
+    {
+        height: 60px;
+        width: 60px;
+        margin-left: 20vw;
+        margin-top: 2.5rem;
+    }
+    #hambu
+    {
+    
+    height: 60px;
+    width: 60px;
+    margin-left: 20vw;
+    margin-top: 2.5rem;
+    }
+    }
+    /*responsividade a smartphones*/
+    @media(max-width:600px)
+    {
+    #logo
+    {
+        /*formatando a logo no cabeçalho
+        posição e tamanho da imagem*/
+        height: 60px;
+        width: 60px;
+        margin-top: 2.5rem;
+        margin-left: -20rem;
+        
+    }
+    #xis
+    {
+        margin-left: 2rem;
+    }
+    #hambu
+    {
+    margin-left: 2rem;
+    }
     h3
     {
        margin-left:0vw;
@@ -472,4 +580,3 @@ a
         margin-left: 9rem;
     }
 }
-/*Fim da Responsividade ao Footer*/ 

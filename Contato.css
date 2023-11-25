@@ -1,6 +1,3 @@
-*{
-    /*border: 1px solid red;*/
-}
 body
 {
     background-color: rgb(0, 0, 0);
@@ -51,18 +48,60 @@ body
 }
 #logo
 {
+    /*formatando a logo no cabeçalho
+    posição e tamanho da imagem*/
     height: 50px;
     width: 50px;
-    margin-top: 2rem;
-    margin-right: -1.7rem;
+    margin-top: 2.2rem;
+    margin-right: -2.7rem;
+    
 }
-#formulario
+#xis
+{ /*x do menu hamburguer*/
+    visibility: hidden;
+    position:absolute;
+    cursor:pointer;
+}
+#hambu
+{   /*hamburguer do menu responsivo*/
+    visibility: hidden;
+    position:absolute;
+    cursor:pointer;
+}
+/*menu hamburguer*/
+#menuzinho
+{   
+    font-family:Georgia;
+    visibility:hidden;
+    height:2rem;
+    cursor:pointer;
+    transition: 0.5s height;
+    position:fixed;
+    margin-top:1.5rem;
+    top:5rem;
+    width:100%;
+    text-align:center;
+}
+
+#menuzinho ul
 {
-    width: 69rem;
-    height: 10rem;
-    margin-top: -60rem;
-    margin-left: -1rem;
+    margin-top: 0rem;
+    background-color: rgb(0, 0, 0);
+    list-style:none;
+    height: 9.5rem;
 }
+#menuzinho ul li
+{
+    padding-top: 1rem;
+}
+#menuzinho ul li a{
+    color:rgb(255, 255, 255);
+}
+
+#menuzinho ul li:hover{
+    transform: scale(1.2);
+}
+/*fim do menu hamburguer*/
 a
 {
 text-decoration: none;
@@ -71,6 +110,9 @@ color: white;
 form
 {
     margin-left: 2rem;
+    width: 69rem;
+    height: 10rem;
+    margin-top: -65rem;
 }
 .formu
 {
@@ -85,6 +127,14 @@ form
     padding-top:1rem;
     text-align: center;
 }
+#btn
+{
+    margin-left: 47rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
 #fale
 {
     font-size: 3rem;
@@ -98,42 +148,45 @@ label
 }
 .caixas
 {
-    width: 24.2vw;
+    width: 24rem;
     height: 2rem;
     background-color: rgb(214, 214, 214);
+    font-size: 1.7rem;
 }
 .textos
 {
-    width: 50vw;
+    width: 50rem;
     height: 2rem;
     background-color: rgb(214, 214, 214);
+    font-size: 1.7rem;
 }
 #txtmens
 {
-    width: 50vw;
+    width: 50rem;
     height: 15rem;
     background-color: rgb(214, 214, 214);
+    font-size: 1.7rem;
 }
 #traco
 {
     width: 0.7rem;
     height: 30rem;
-    margin-left: 73rem;
+    margin-left: 70rem;
     margin-top: 6rem;
     margin-bottom: 30rem;
     background: linear-gradient(to top, rgb(7, 238, 255),rgb(7, 238, 255),rgb(255, 0, 191), rgb(255, 0, 191), rgb(230, 255, 1),rgb(230, 255, 1));
 }
 #tell
 {
-    padding-left: 23vw;
+    padding-left: 23rem;
 }
 #informacoes
 {
-    margin-left: 73rem;
+    margin-left: 72rem;
     margin-right: 2rem;
-    margin-top: -16rem;
+    margin-top: -12rem;
     color: rgb(255, 255, 255);
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 ul
 {
@@ -187,8 +240,8 @@ iframe
 {
     margin-left: 18vw;
     margin-top: 25rem;
-    width: 65vw;
-    height: 33vw;
+    width: 60vw;
+    height: 25vw;
 }
 #degrade
  {
@@ -324,8 +377,134 @@ footer
         background-color: rgb(255, 255, 255)
     }
     /*Aplicando Responsividade ao Footer*/  
+    @media(max-width: 1700px)
+{
+    header
+    {
+        padding-left: 24vw;
+    }
+    #informacoes
+    {
+        margin-left: 65rem;
+        margin-right: 2rem;
+        margin-top: -16rem;
+    }
+    #traco
+    {
+        margin-left: 65rem;
+        margin-top: 6rem;
+        margin-bottom: 30rem;
+    }
+}
+    @media(max-width: 1500px)
+    {
+        #informacoes
+        {
+        display: none;
+        }
+    
+        #emaill
+        {      
+            display: none;
+        }
+         .txtinfo
+        {
+            display: none;
+        }
+        #telefonee
+        {
+            display: none;
+        }
+        #telefone2
+        {   
+            display: none;
+        }
+        #horarioo
+        {   
+            display: none;
+        }
+        #informacoes img
+        {
+            display: none;
+        }
+        iframe
+        {
+            margin-left: 20vw;
+            padding-top: 6rem;
+        }
+        #traco
+        {
+            display:none;
+        }
+        form
+        {
+            margin-top:8rem;
+            margin-left: 8vw;
+            width: 90vw;
+        }
+        #btn
+        {
+            margin-left: 71vw;
+        }
+        #fale
+        {
+            display: none;
+        }
+        .caixas
+        {
+            width: 36vw;
+        }
+        .textos
+        {
+            width: 74.8vw;
+        }
+        #txtmens
+        {
+            width: 74.8vw;
+        }
+        #tell
+        {
+            padding-left: 34.5vw;
+        }
+        button
+        {
+            margin-left: 60vw;
+        }
+    }
 @media(max-width: 1000px)
 {
+    header{
+        background-color:rgb(0, 0, 0);
+        height:8rem
+    }
+
+    header ul{
+        visibility:hidden;
+    }
+
+    #hambu{
+        visibility:visible;
+        height: 60px;
+        width: 60px;
+        margin-left: 20vw;
+        margin-top: 2.5rem;
+    } 
+    #logo
+    {   
+        
+        height: 60px;
+        width: 60px;
+        margin-top: 2.5rem;
+        margin-left: -22rem;
+        
+    }
+    #xis
+    {
+        height: 60px;
+        width: 60px;
+        margin-left: 20vw;
+        margin-top: 2.5rem;
+    }
     h3
     {
        margin-left:0vw;
@@ -350,9 +529,55 @@ footer
     {
         margin-left: 39vw;
     }
+    form
+    {
+        margin-left: 2rem;
+    }
+    .caixas
+    {
+        width: 35.6vw;
+    }
+    #tell
+    {
+        padding-left: 30vw;
+    }
+    #btn
+    {
+        margin-left: 62vw;
+    }
+    .textos
+    {
+        width: 75.9vw;
+    }
+    #txtmens
+    {
+        width: 75.9vw;
+    }
+    #tell
+    {
+        padding-left: 31.8vw;
+    }
 }
-@media(max-width: 570px)
+@media(max-width: 600px)
 {
+    #logo
+    {
+        /*formatando a logo no cabeçalho
+        posição e tamanho da imagem*/
+        height: 60px;
+        width: 60px;
+        margin-top: 2.5rem;
+        margin-left: -20rem;
+        
+    }
+    #xis
+    {
+        margin-left: 2rem;
+    }
+    #hambu
+    {
+    margin-left: 2rem;
+    }
     h3
     {
        margin-left:0vw;
@@ -380,104 +605,3 @@ footer
     }
 }
 /*Fim da Responsividade ao Footer*/ 
-@media(max-width: 1400px)
-{
-    #informacoes
-    {
-    display: none;
-    }
-
-    #emaill
-    {      
-        display: none;
-    }
-     .txtinfo
-    {
-        display: none;
-    }
-    #telefonee
-    {
-        display: none;
-    }
-    #telefone2
-    {   
-        display: none;
-    }
-    #horarioo
-    {   
-        display: none;
-    }
-    #informacoes img
-    {
-        display: none;
-    }
-    iframe
-    {
-        margin-left: 18vw;
-        margin-top: 35rem;
-    }
-    #traco
-    {
-        display:none;
-    }
-    #formulario
-    {
-        margin-top:8rem;
-        margin-left: 7vw;
-        width: 90vw;
-    }
-    #fale
-    {
-        display: none;
-    }
-    .caixas
-    {
-        width: 36vw;
-    }
-    .textos
-    {
-        width: 76.2vw;
-    }
-    #txtmens
-    {
-        width: 76.2vw;
-    }
-    #tell
-    {
-        padding-left: 34.5vw;
-    }
-    button
-    {
-        margin-left: 60vw;
-    }
-}
-@media(max-width: 900px)
-{
-    #formulario
-    {
-        margin-left: 0.2rem;
-    }
-    .caixas
-    {
-        width: 34.5vw;
-    }
-    #tell
-    {
-        padding-left: 30vw;
-    }
-}
-@media(max-width: 1700px)
-{
-    #informacoes
-    {
-        margin-left: 65rem;
-        margin-right: 2rem;
-        margin-top: -16rem;
-    }
-    #traco
-    {
-        margin-left: 65rem;
-        margin-top: 6rem;
-        margin-bottom: 30rem;
-    }
-}
