@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content=""width-device-width, initial-scale="1.0"/>
+        <title>ML4 Digital</title>
+        <link rel="stylesheet" type="text/css" href="index.css"/>
+    </head>
+    <body>
+<!--Criando o cabeçalho da página-->
+<header>
+   
+        <ul>
+            <li id="links"><a href ="index.html">HOME</a></li> 
+            <li id="links"><a href ="servicos.html">SERVIÇOS</a></li>
+        </ul>   
+
+            <li><img src="imagens/menu.png" id="hambu" onClick="Abre_Menu()"/></li>
+            <li><img src="imagens/X.png" id="xis" onClick="Fecha_Menu()"/></li>
+            <li><img src="imagens/logo.png"id="logo"/></li>
+
+        <ul id="cabecalho2">
+            <li id="links"><a href ="Contato.html">CONTATO</a></li>
+            <li id="links"><a href ="Sobre.html">SOBRE</a></li>
+        </ul>
+ 
+</header>
+<!--imagem do cabeçalho-->
+        <section id="menuzinho">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href ="servicos.html">SERVIÇOS</a></li>
+                <li><a href ="Contato.html">CONTATO</a></li>
+                <li><a href ="Sobre.html">SOBRE</a></li>
+            </ul>
+        </section>
+        <section>
+            <img src="imagens/cilindroDegrade.jpg" id="fundo" >
+        </section>
+<!--Fim do cabeçalho-->
+<!--Criando a base do Carrosel e suas setas-->
+        <section id="carrossel">
+            <p class = "ante" onClick="Anterior()">&#60;</p>
+            <img src= "imagens/Banners-e-Faixas-77.jpg" name="slide" id="slide"/>
+            <p class = "prox" onClick="Proximo()">&#62;</p>
+        </section>   
+    <!--Criação da descrição do carrosel--><div id="descricao"></div>
+        <div id="texto1">
+            <!--Criação do primeiro texto-->
+            <pre><strong class="titulo">                   UM POUCO SOBRE NÓS</strong><i class = "textos">
+
+Somos uma gráfica digital dedicada a transformar
+suas ideias em realidade. Nossa paixão pela qualidade
+e inovação nos torna a escolha ideal para suas
+necessidades de impressão.</i>
+<!--Criação do primeiro link-->
+<i id="link1"> <a href ="Sobre.html">Saiba Mais → </a></i></pre>
+<!--Criação da imagem do primeiro texto--><p><img src="imagens/sobre.jpg"></p>
+            
+        </div>
+        
+        <section id="texto2">
+            <!--Criação da imagem do segundo texto-->
+            <p><img src="imagens/serviços.jpg"></p>
+            <!--Criação do segundo texto-->
+            <pre><strong class="titulo">                          PORTIFÓLIO</strong><i class="textos">
+
+    Nós fornecemos impressões, adesivos, placas,
+    flyers, cartazes e muito mais! Nossa finalidade
+    é a satisfação de nossos clientes. Tudo isso
+    com o apoio de nossas ferramentas tecnológicas
+    e inovadoras de altissíma qualidade. </i>
+    <!--Criação do segundo link-->
+    <i id="link2"> <a href ="servicos.html">Conheça nossos Serviços</a> </i></pre>
+
+        </section>
+<!--Criação do texto "PARCERIAS"-->
+<h1>PARCERIAS</h1>
+<!--Criação das imagens de empresas parceiras-->
+<div id="parcerias"><img src="imagens/kalunga-removebg-preview.png"> <img src="imagens/Bic-logo-removebg-preview.png"> <img src="imagens/faber-castell-removebg-preview.png"></div>
+<!--Criação do degrade acima do footer-->
+        <div id="degrade"></div>
+        <!--Criação do footer e seus itens-->
+        <footer>
+            <h3 id="endereco">Rua Guaipá, 678 - Vila Leopoldina, São Paulo - SP</h3>
+            <ul id="icones">
+                <li><a href ="https://www.facebook.com/profile.php?id=61551735884650&mibextid=2JQ9oc" target="_blank"><img id="face" src="imagens/facebook.png"></a></li>
+                <li><a href ="https://instagram.com/ml4_digitalofc2023?igshid=MzRlODBiNWFlZA==" target="_blank"><img id="insta" src="imagens/instagram.png"></a></li>
+                <li><a href ="https://www.linkedin.com/in/ml4-digital-076555296/" target="_blank"><img id="linke" src="imagens/linkedin.png"></a></li>
+                <li><a href ="https://api.whatsapp.com/send?phone=5511961450166&text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20!" target="_blank"><img id="whats" src="imagens/whatssap90.png"></a></li>
+            </ul>
+            <ul id="email">
+                <li><img src="imagens/email.png"></li>
+                <li>contato@mldigital.com</li>
+            </ul>
+            <ul id="horario">
+                <li><img src="imagens/relogio.png"></li>
+                <li>Seg á Sex: 08:00 ás 17:30</li>
+            </ul>
+            <ul id="telefone">
+                <li><img src="imagens/telefone.png"></li>
+                <li> (11)2679-5643 </li>
+                <li><img src="imagens/telefone.png"></li>
+                <li> (11)2754-3645 </li>
+            </ul>
+            <p id="direitos">® 2023, Equipe Ml4 Digital</p>
+        </footer>
+<!--linkando o javascript--><script src="Index.js"></script>
+    </body>
+</html>
